@@ -1,0 +1,140 @@
+@import '../styles/_colors.scss';
+
+.testimony-card {
+    width: 80%;
+    height: auto;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    background: #f1f5fb;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.dentist-card {
+    width: 100%;
+    height: auto;
+    min-height: 100% !important;
+    background: #ffffff;
+    border-radius: 15px;
+}
+
+.counter {
+    width: 30%;
+    height: auto;
+    min-height: 100% !important;
+    background: #71aaf8;
+    border-radius: 18px;
+
+    .numbers {
+        width: 70%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .white-number-block {
+        width: 70%;
+        height: auto;
+        min-height: 6vh !important;
+        background: white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        font-size: xx-large;
+    }
+}
+
+.vertically-centered-container {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-mobile {
+    width: 80%;
+    height: auto;
+    min-height: 100% !important;
+    background: #71aaf8;
+    border-radius: 18px;
+
+    .numbers {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .white-number-block {
+        width: 80%;
+        height: auto;
+        min-height: 6vh !important;
+        background: white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        font-size: xx-large;
+    }
+}
+
+.right-just {
+    display: flex;
+    justify-content: right;
+}
+
+.img-rigid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.apostrophe {
+    font-size: 80px;
+    margin-top: -30px;
+}
+
+.apostrophe-mobile {
+    font-size: 80px;
+    margin-top: -30px;
+    margin-bottom: -30%;
+}
+
+.small-margins {
+    margin-right: 6%;
+    margin-left: 6%;
+}
+
+.dentist-img {
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.is-lightblue-bkg {
+    background: #e6eeff;
+}
+
+.pad-logo {
+    padding-left: 4rem;
+}
+
+.mobile-top {
+    margin-bottom: -4rem;
+}
+
+.testimony-img {
+    width: 65%;
+    height: 65%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}

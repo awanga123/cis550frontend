@@ -1,0 +1,106 @@
+@import '../styles/_colors.scss';
+
+#landing-page {
+    animation: fadein 1.5s;
+    -moz-animation: fadein 1.5s; /* Firefox */
+    -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+    -o-animation: fadein 1.5s; /* Opera */
+}
+
+.container {
+    @media (max-width: 1024px) {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+.large-container {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.header {
+    background-color: $primary-opaque;
+
+    .container {
+        padding-top: 10rem;
+    }
+
+    .header-content {
+        background-color: black;
+        padding-bottom: 10rem;
+    }
+}
+
+section.body {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    &.main {
+        background-color: white;
+    }
+
+    &.grey {
+        background-color: $grey-background;
+    }
+
+    &.alternate {
+        background-color: $primary-opaque;
+    }
+
+    &.lightblue {
+        background-color: #005eb8;
+    }
+}
+
+.placeholder {
+    background-color: lightgrey;
+    width: 50%;
+    &::after {
+        content: '';
+        display: block;
+        padding-bottom: 100%;
+    }
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein {
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein {
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein {
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+

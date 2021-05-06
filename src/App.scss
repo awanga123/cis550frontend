@@ -1,0 +1,103 @@
+@charset 'utf-8';
+@import 'styles/_colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+$family-sans-serif: 'Work Sans', sans-serif;
+$primary: $brand-main;
+$info: $brand-accent;
+$card-shadow: 0;
+$card-content-padding: 1rem;
+
+$checkbox-block-background: black;
+
+@import 'bulma';
+@import './styles/steps.scss';
+@import './styles/checkbox.scss';
+@import 'styles/shared.scss';
+
+html,
+body,
+#root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+}
+
+.navbar {
+    &.is-transparent {
+        background-color: transparent;
+        background-image: none;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    &.is-bold {
+        font-weight: bold;
+    }
+
+    &.center-align {
+        text-align: center;
+    }
+
+    &.is-primary {
+        color: $brand-main;
+    }
+    &.is-secondary {
+        color: $brand-secondary;
+    }
+    &.is-info {
+        color: $brand-accent;
+    }
+    &.is-medium {
+        font-weight: 500;
+    }
+
+    &.is-light {
+        color: #9d9d9d;
+    }
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1.125rem;
+}
+
+a {
+    color: $brand-main;
+}
+
+.is-bold {
+    font-weight: bold;
+}
